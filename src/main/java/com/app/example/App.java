@@ -21,6 +21,6 @@ public class App extends SpringBootServletInitializer {
 
    @RequestMapping(value = "/")
    public String hello() {
-      return "<center>Hello World this is tomcat with jenkins testing</center>";
+      return "<center>Hello World this is tomcat with jenkins testing and update war file on S3 bucket on AWS cloud</center>";
    }
 }
